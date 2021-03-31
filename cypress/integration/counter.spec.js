@@ -8,7 +8,7 @@ const btns = new Buttons();
 context("check the functionality of the counter app", () => {
     describe("check the functionality of the buttons", () => {
         beforeEach(() => {
-            cy.visit('http://127.0.0.1:5500/index.html');
+            cy.visit('https://mervearas.github.io/counter-app-cypress-test/index.html');
             cy.contains('Counter')
         })
 
